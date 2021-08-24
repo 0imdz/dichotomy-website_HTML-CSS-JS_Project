@@ -1,0 +1,577 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Questrial;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.logo {
+  width: 10vh;
+  cursor: pointer;
+  margin: 2vh 0vh;
+}
+
+.menu-icon {
+  width: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+  z-index: 2;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 5vh;
+}
+
+nav ul .no_margin {
+  margin-right: 0px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.9vh;
+}
+
+nav ul li a:hover {
+  color: #ffaacd;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-top: 20vh;
+}
+
+.col {
+  /* flex-basis: 50%;  */
+  position: relative;
+  margin-left: 0px;
+  /* padding-right: 3px; */
+}
+
+.col h1 {
+  font-size: 12vh;
+  color: #fff;
+  margin-bottom: 1vh;
+}
+
+.col p {
+  margin-left: vh;
+  color: #fff;
+  font-size: 2vh;
+}
+
+.col button {
+  margin-top: 3vh;
+  margin-left: 0vh;
+  padding: 1vh 5vh;
+  border-radius: 2vh;
+  cursor: pointer;
+  background: black;
+  color: #fff;
+  font-size: 2vh;
+  border: 0px;
+}
+
+.col button:hover {
+  background: rgb(255, 255, 255);
+  color: #000;
+  border: 1px solid white;
+  transition: ease-in-out 0.9s;
+}
+
+@media all and (max-width: 1000px) {
+  nav ul {
+    width: 100%;
+    height: 88%;
+    background: linear-gradient(rgba(0, 0, 11, 20), rgba(63, 63, 63, 0.9));
+    position: absolute;
+    top: 12%;
+    right: 0;
+    z-index: 999;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin-top: 9%;
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+  nav ul .no_margin {
+    display: none;
+    /* margin-bottom: 200px; */
+  }
+  nav ul li a {
+    color: #fff;
+    font-size: 20px;
+  }
+  .menu-icon {
+    display: block;
+    z-index: 999;
+    color: white;
+  }
+  #menuList {
+    overflow: hidden;
+    transition: 0.6s;
+  }
+  .col h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .col p {
+    font-size: 14px;
+  }
+}
+
+@media all and (min-width: 200px) {
+  .container6 .sudadera2 {
+    display: none;
+  }
+
+  .container6 .patagonia_comment {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .video2 video {
+    display: none;
+  }
+
+  .col3 {
+    position: absolute;
+    left: 0px;
+  }
+
+  .container2 {
+    padding: 0;
+  }
+
+  .container6 .sudadera {
+    width: 10%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media all and (max-width: 10000px) {
+  .container2 .boton-2 {
+    position: absolute;
+    left: 4%;
+  }
+  .container2 .col3 {
+    position: absolute;
+    left: 5%;
+  }
+  .container2 .video2 {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .container3 button {
+    position: absolute;
+  }
+
+  .container3 p {
+    display: none;
+  }
+
+  .col-4 h1 {
+    font-size: 70px;
+  }
+
+  .container3 .col-4 {
+    width: 12vh;
+    position: absolute;
+    top: 227%;
+    left: 20%;
+    z-index: 0;
+  }
+
+  .container3 .col-8 {
+    display: none;
+  }
+
+  .explorenanamica {
+    left: -210%;
+    top: 95%;
+  }
+
+  .button {
+    font-size: 200px;
+  }
+
+  .container3 .col-4 h2 {
+    font-size: 5.5vh;
+    width: 0px;
+  }
+}
+
+.container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+  z-index: 0;
+}
+
+.filtro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.container2 {
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 0, 8, 20), rgba(255, 255, 255, 0.1)),
+    url(../img/asics/47.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.video2 {
+  width: 54vh;
+  position: absolute;
+  top: 58vh;
+  left: 0vh;
+  /* background-color: black; */
+  border-radius: 0.9vh;
+  z-index: 3;
+}
+
+.video2:hover {
+  border: 11px black;
+  cursor: pointer;
+}
+
+.col2 p {
+  position: absolute;
+  top: 140vh;
+  left: 1.5vh;
+  font-size: 14vh;
+  z-index: 2;
+  font-style: unset;
+  opacity: 0.4;
+}
+
+.col3 {
+  position: absolute;
+  font-size: 13vh;
+  top: 147vh;
+  left: 126.5vh;
+  /* font-style: italic; */
+  color: rgb(255, 255, 255);
+  font-family: "Poppins";
+}
+
+.col3:hover {
+  font-size: 13vh;
+  transition: 0.7s ease;
+  cursor: pointer;
+  color: rgb(254, 219, 255);
+}
+
+.topo {
+  position: absolute;
+  width: 101vh;
+
+  z-index: 0;
+  opacity: 0.1;
+  left: -30.5vh;
+}
+
+.zapa-1 {
+  position: absolute;
+  top: 129.1vh;
+  width: 58vh;
+  left: 26vh;
+  z-index: 5;
+  opacity: 0.7;
+}
+
+.zapa-1 {
+  width: 2vh;
+}
+
+/* .topo img{
+  z-index: -1;
+  width: 10vh;
+ 
+  position: absolute;
+  /* right: vh; */
+/* object-fit: cover;
+  
+  
+} */
+
+.boton-2 {
+  position: absolute;
+  width: 50vh;
+  top: 174.7vh;
+  left: 120vh;
+  z-index: 1;
+
+  text-align: center;
+  padding-right: 80vh;
+  padding-left: 80vh;
+
+  margin-top: 3vh;
+  margin-left: 1vh;
+  padding: 2vh 10vh;
+  border-radius: 0.8vh;
+  cursor: pointer;
+  background: rgb(163, 163, 163, 0.4);
+  color: #fff;
+  border: 0.3vh solid #fff;
+  font-size: 2vh;
+  position: absolute;
+}
+
+.boton-responsive {
+  display: none;
+}
+
+.boton-2:hover {
+  background: rgb(0, 0, 0);
+  transition: ease-in-out 0.9s;
+}
+
+.container3 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(119, 65, 194, 0.263),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../img/montanya/mountains.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main {
+  /* padding-bottom: 100vh; */
+  padding-top: 38vh;
+  z-index: -1;
+  padding: 0;
+}
+
+.main img {
+  width: 100vh;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  padding-left: 4vh;
+}
+
+.col-4 {
+  width: 50vh;
+  position: absolute;
+  top: 240vh;
+  z-index: 20;
+  left: 6vh;
+}
+
+.col-4 h1 {
+  font-size: 6vh;
+  width: 180%;
+}
+
+.col-4 h2 {
+  width: 500px;
+}
+
+.col-4 p {
+  font-size: 2.7vh;
+  width: 170%;
+  margin-top: 1.5vh;
+}
+
+.col-8 {
+  width: 50%;
+  float: right;
+  z-index: -10;
+}
+
+.glide__slide {
+  transform: scale(0.6);
+  transition: all ease 5s;
+}
+
+.glide__slide .glide__slide--active {
+  transform: scale(1);
+}
+
+.container4 {
+  width: 100%;
+  height: 270vh;
+  background-image: linear-gradient(
+      rgba(119, 65, 194, 0.263),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../img/the north face x palace/13.jpg");
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.nanamica {
+  position: absolute;
+  top: 567vh;
+  color: rgb(255, 255, 255);
+}
+
+.container5 {
+  width: 100%;
+  height: 270vh;
+  background-image: linear-gradient(
+      rgba(119, 65, 194, 0.263),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../img/the north face x palace/14.jpg");
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.nanamica2 {
+  position: absolute;
+  top: 837vh;
+  color: #fff;
+}
+
+.explorenanamica {
+  padding: 1vh 10vh;
+  border-radius: 5vh;
+  cursor: pointer;
+  background-color: rgb(242, 227, 255);
+  border-style: none;
+  z-index: 5;
+  margin-top: 6vh;
+  margin-left: 25vh;
+}
+
+/* @media screen and (max-width: 1300px) {
+  .explorenanamica {
+    background-color: rgb(219, 219, 219);
+    position: absolute;
+    margin: 0;
+    margin-top: 4vh;
+  }
+
+  .video2 {
+    left: 20vh;
+  }
+} */
+
+/* @media screen and (max-height: 400px) {
+  .container3 .col-8 {
+    display: none;
+  }
+} */
+
+.container6 {
+  width: 100%;
+  height: 100vh;
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0.263), rgba(0, 0, 0, 0.6)), url("img/.png"); */
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.sudadera {
+  width: 90vh;
+  position: absolute;
+  left: 3vh;
+  top: 845vh;
+}
+
+.patagonia_comment {
+  position: absolute;
+  font-size: 10vh;
+  top: 846vh;
+  z-index: 0;
+  font-family: Poppins;
+  color: black;
+  width: 100vh;
+  left: 95vh;
+}
+
+.soul {
+  width: 40vh;
+  height: 150h;
+  font-size: 15vh;
+  border: 1px solid white;
+  position: absolute;
+  top: 910vh;
+  left: 110vh;
+  border-radius: 30vh;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.sudadera2 {
+  width: 70vh;
+  position: absolute;
+  left: 107vh;
+  top: 860vh;
+}
+
+.explorepatagonia {
+  position: absolute;
+  top: 933vh;
+  width: 40vh;
+  margin-left: 28vh;
+  cursor: pointer;
+  padding: 1vh;
+  border: 0px solid black;
+}
+
+.explorepatagonia:hover {
+  /* background-color:yellow; */
+  /* width:200px; */
+  /* height:100px; */
+  box-shadow: 0px 1px 10px rgb(216, 255, 243);
+  transition: 0.3;
+}

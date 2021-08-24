@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dichotomy.com | Gel 1090</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="img/2.png" />
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+   .transparente{
+        background-color: transparent !important;
+    }
+    
+    .navbar-nav .nav-item{
+        padding-left:50px;
+    }
+
+    .navbar-brand img{
+        width: 80px;
+    }
+
+    .card-border{
+        border: solid 10px white;
+        border-radius: 20px;
+        overflow: hidden;
+        transition: all ease-out 0.2s;
+    }
+
+    .card-border:hover{
+        transform: scale(1.05);
+    }
+
+    .textouno{
+        font-family: 'Questrial';
+        font-style: italic;
+    }
+
+    .botonuno{
+        background: black;
+        border-style: none;
+        border-radius: 1px;
+        padding: 2px 20px 2px 20px;
+    }
+
+    .botonuno:hover{
+        background-color: rgb(194, 194, 194);
+        color: #000;
+        transition: 0.4s;
+    }
+
+    .botondos{
+        background: black;
+        border-style: none;
+        border-radius: 22px;
+        padding: 2px 70px 2px 70px;
+    }
+
+    .botondos:hover{
+        background-color: rgb(194, 194, 194);
+        color: #000;
+        transition: 0.4s;
+    }
+
+    .botonesnav a{
+        font-family: 'Questrial';
+        font-size: 20px;
+    }
+
+    .header .navbar{
+        background-color: black;
+    }
+
+    .ParallaxVideo img{ 
+        min-height: 100%;
+        top:0;
+        z-index: -999;
+        width: 100%;
+        height: 90%;
+    }
+
+    .cabecera{
+        color: #fff;
+    }
+
+    .jumbotron{
+        background-image: linear-gradient(rgba(0, 0, 8, 20), rgba(255, 255, 255, 0.1)), url(img/asics/47.jpg);
+        font-family: 'Questrial';
+        color: #fff;
+        background-position: center;
+        background-size: cover;
+        height: 428px;
+        align-items: center;
+        margin-bottom: 0;
+        text-align: center;
+        margin-right: 0;
+        border-radius: 0px;
+    }
+
+    .jumbotron2{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 8, 20)), url(img/asics/46.jpg);
+        font-family: 'Questrial';
+        color: #fff;
+        background-position: center;
+        background-size: cover;
+        height: 526px;
+        align-items: center;
+        margin-bottom: 0;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .jumbotron3{
+        background-image: linear-gradient(rgba(0, 0, 8, 20), rgba(255, 255, 255, 0.1)), url(img/asics/110.jpg);
+        font-family: 'Questrial';
+        color: #fff;
+        background-position: center;
+        background-size: cover;
+        height: 526px;
+        align-items: center;
+        margin-bottom: 0;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .hola{
+        border-radius: 4px;
+        height: 200vh;
+    }
+
+    .botoncinco{
+        background:rgb(0, 0, 0);
+        border: none;
+        color:WHITE;
+    }
+
+    .botoncinco:hover{
+        background: rgb(0, 0, 0);
+        border: none;
+        color: yellow;
+    }
+    
+    .back_foot{
+        background: #000;
+    }
+
+    
+   
+    
+</style>
+
+
+<body>
+        <!--BARRA DE NAVEGACIÓN-->
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+                    <a class="navbar-brand" href="home.html"><img src="img/2.png" alt="" style="margin-left: 50px; width: 50px;"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                        <span class="navbar-toggler-icon" style="color: #fff;"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-right: 70px;">
+                        <ul class="navbar-nav ml-auto botonesnav">
+                            <li class="nav-item botonesnav">
+                                <a class="nav-link" href="home.html" style="color: rgb(255, 255, 255); font-size: 12px;">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Palace x Salomon.html" style="color: rgb(255, 255, 255); font-size: 12px">COLLECTIONS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: rgb(255, 255, 255); font-size: 12px">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: rgb(255, 255, 255); font-size: 12px">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+            </nav>
+        </header>
+        
+            <!-- Jumbotron -->
+            <div class="p-10 text-center bg-light jumbotron">
+                <h1 class="mb-0 mt-5" style="font-size: 40px; font-family: 'Questrial'; ">
+                Gel-1090 x Andersson Bell</h1>
+                
+                <h4 class="mb-0" style="font-style: normal; color: rgb(182, 182, 182); font-size: 1.9vh; margin-top: 2vh">Seoul-based fashion label, Andersson Bell reimagines the GEL-1090™ sneaker with their Korean perspective and
+                Scandinavian aesthetics. This design draws inspiration from classic mountain climbing footwear. Three pairs of laces are
+                anchored throughout the upper, mirroring the various cords and bungee cables on a mountaineer's boots.</h4>
+                <!-- <a class="btn btn-primary" href="" role="button">Call to action</a> -->
+            </div>
+            <!-- Jumbotron -->
+        
+    
+
+        <!-- TARJETAS PRODUCTO-->
+        <div id="games">
+            <div class="container-md p-4">
+                <div class="row d-flex justify-content-center">
+                    <h1 class="text-center textouno" style="font-size: 80px;">
+                    <hr></h1>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card w-100 card-border">
+                            <img class="card-img-top" src="img/asics/69.webp" alt="Card image cap">
+                            <div class="card-body">
+                                    <div class="card-text text-center textouno">
+                                        <p class="card-text">Glacier Grey & Silver</p>
+                                    </div>
+                                    <div class="btn text-center w-100 mt-3">
+                                        <a href="#" class="btn btn-primary botonuno">Explore</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm">
+                        <div class="card w-100 card-border">
+                            <img class="card-img-top" src="img/asics/21.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="card-text text-center textouno">
+                                    <p class="card-text">White & Orange</p>
+                                </div>
+                                <div class="btn text-center w-100 mt-3">
+                                    <a href="#" class="btn btn-primary botonuno">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm">
+                        <div class="card w-100 card-border">
+                            <img class="card-img-top" src="img/asics/23.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="card-text text-center textouno">
+                                    <p class="card-text">Black & Silver</p>
+                                </div>
+                                <div class="btn text-center w-100 mt-3">
+                                    <a href="#" class="btn btn-primary botonuno">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <!-- Jumbotron -->
+        <div class="p-5 text-center bg-light jumbotron2">
+            <h1 class="mb-0 mt-5" style="font-size: 40px; font-family: 'Questrial'; margin-top: 20px;"></h1>
+            <h4 class="mb-0" style="font-size: 20px; font-style: normal; color: #fff; margin-top: 200px": >frozen</h4>
+            <h4 class="mb-0" style="font-size: 20px;font-style: normal; color: #fff; color: yellow" :>only.</h4>
+            <!-- <button type="button" class="btn btn-primary video-btn" data-toggle="modal"
+                data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal">
+                Play Video 1 - autoplay
+            </button> -->
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Jfrjeg26Cwk" id="video" allowscriptaccess="always"
+                                allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="page-footer font-small indigo back_foot">
+        
+            <!-- Footer Links -->
+            <div class="container">
+        
+                <!-- Grid row-->
+                <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+        
+                    <!-- Grid column -->
+                    <div class="col-md-2 mb-3">
+                        <h6 class="text-uppercase font-weight-bold" style="font-family: 'Questrial';">
+                            <a href="#!" style="color: rgb(215, 215, 215); text-decoration: none;">HOME</a>
+                        </h6>
+                    </div>
+                    <!-- Grid column -->
+        
+                    <!-- Grid column -->
+                    <div class="col-md-2 mb-3">
+                        <h6 class="text-uppercase font-weight-bold" style="font-family: 'Questrial';">
+                            <a href="#!" style="color: rgb(215, 215, 215); text-decoration: none;">ABOUT</a>
+                        </h6>
+                    </div>
+                    <!-- Grid column -->
+        
+                    <!-- Grid column -->
+                    <div class="col-md-2 mb-3">
+                        <h6 class="text-uppercase font-weight-bold" style="font-family: 'Questrial';">
+                            <a href="#!" style="color: rgb(215, 215, 215); text-decoration: none;">Contact</a>
+                        </h6>
+                    </div>
+                    <!-- Grid column -->
+        
+                </div>
+                <!-- Grid row-->
+                <hr class="rgba-white-light" style="margin: 0 15%;">
+        
+                <!-- Grid row-->
+                <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+        
+                    <!-- Grid column -->
+                    <div class="col-md-8 col-12 mt-2" style="margin-bottom: 6vh;">
+                        <p style="line-height: 1.7rem; color: rgb(116, 116, 116);">Everyday is an opportunity to change the future. Work in the present 
+                            to write the next generation, is a concept. This is not a happiness message, this is our way to express what we have to do, 
+                            because all is a dichotomy.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+        
+                </div>
+                
+        
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3" style="color: rgb(215, 215, 215); font-family: 'Questrial';">© 2021 All rights reserved
+                <a href="https://mdbootstrap.com/" style="color: yellow; text-decoration: none;">Ismael Morillas Díaz </a>
+                <!-- <a href="https://mdbootstrap.com/" style="color: rgb(116, 116, 116); text-decoration: none;">|| </a>
+                <a href="https://mdbootstrap.com/" style="color: yellow; text-decoration: none;">Ismael Morillas </a> -->
+            </div>
+            <!-- Copyright -->
+        
+        </footer>
+        <!-- Footer -->
+        
+        
+        
+     
+        <!-- Jumbotron -->
+
+
+        <!-- Jumbotron -->
+        <!-- <div class="p-5 text-center bg-light jumbotron3">
+            <h1 class="mb-0 mt-5" style="font-size: 40px; font-family: 'Questrial'; margin-top: 20px;"></h1>
+            <h4 class="mb-0" style="font-size: 20px; font-style: normal; color: #fff; margin-top: 200px" :>frozen</h4>
+            <h4 class="mb-0" style="font-size: 20px;font-style: normal; color: #fff; color: yellow" :>only.</h4>
+            <a style="margin-top: 150px" class="btn btn-primary botoncinco" href="" role="button">More Asics</a>
+        </div> -->
+        <!-- Jumbotron -->
+
+        <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner hola">
+                <div class="carousel-item active">
+                    <div class="oscurecer"></div>
+                    <img class="d-block w-100" src="img/asics/46.jpg"; alt="First slide">
+                    
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/asics/frt.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="..." alt="Third slide">
+                </div>
+            </div>
+        </div> -->
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    
+</body>
+
+</html>

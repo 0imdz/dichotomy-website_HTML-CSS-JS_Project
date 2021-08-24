@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dichotomy.com | Home</title>
+    <link rel="stylesheet" href="css/style_home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="shortcut icon" href="img/2.png" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="home.html"><img src="img/2.png" class="logo"></a>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="Palace x Salomon.html">COLLECTIONS</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    
+                </ul>
+            </nav>
+            <img src="img/5.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <video src="vid/video6.mp4" muted loop autoplay></video>
+        <div class="filtro"></div>
+
+        <div class="row">
+            <div class="col">
+                <h1>Climb the city.</h1>
+                <p>Palace x Salomon XA COMP ADV<b></b>
+                </p>
+                <a href="Palace x Salomon.html"><button type="button">Explore</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="video2">
+            <video src="vid/video2.mp4" muted loop autoplay class="video2"></video>
+        </div>
+
+        <div class="col3">
+            <p>Limits <br>frozen.</p>
+            <hr>
+        </div>
+        <a href="Gel 1090.html"><button class="boton-2"><p>See Asics x Anderson Bell</p></button></a>
+    </div>
+
+    <img src="img/topo/Background3.png" alt="" class="topo">
+
+    <div class="container3">
+        <div class="main">
+            <div class="col-4">
+                <h1>THE NORTH FACE ® & PALACE</h1>
+                <h2 style="color: #fff;">PURPLE LABEL COLLECTION</h2>
+                <p>The capsule consists of eleven items, which include outerwear, T-shirts, pants and accessories.
+                    The garments are
+                    dominated by the camo pattern, in particular on the accessories, and by purple tones that reflect
+                    the colour of the
+                    NTFPL logo.
+                </p>
+                <button class="explorenanamica">Explore</button>
+            </div>
+            
+            <div class="col-8">
+
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide"><img src="img/the north face x palace/9.png" alt=""></li>
+                            <li class="glide__slide"><img src="img/the north face x palace/2.png" alt=""></li>
+                            <li class="glide__slide"><img src="img/the north face x palace/3.png" alt=""></li>
+                            <li class="glide__slide"><img src="img/the north face x palace/4.png" alt=""></li>
+                            <li class="glide__slide"><img src="img/the north face x palace/5.png" alt=""></li>
+                            <li class="glide__slide"><img src="img/the north face x palace/6.png" alt=""></li>
+                            <li class="glide__slide"><img src="img/the north face x palace/1.png" alt=""></li>
+                            <li class="glide__slide"><img src="img/the north face x palace/80.png" alt=""></li>
+                            <li class="glide__slide"><img src="img/the north face x palace/90.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i
+                                class="fa fa-angle-left"></i></button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i
+                                class="fa fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container4">
+        <p class="nanamica">© nanamica.com</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <script>
+        new Glide('.glide', {
+            type: 'carousel',
+            startAt: 0,
+            perView: 1
+        }).mount()
+    </script>
+
+    <script>
+
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "100%";
+                
+                position = absolute;
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+
+    </script>
+
+</body>
+
+</html>
